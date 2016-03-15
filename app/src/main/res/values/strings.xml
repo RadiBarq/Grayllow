@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Grayllow</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_water_cycle">WaterCycle</string>
+
+
+    <string-array name="Questions_Orders">
+        <item>تسجيل الدخول</item>
+        <item>التسجيل</item>
+    </string-array>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="register">New User?</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_register">Register</string>
+    <string name="user_name">User name</string>
+    <string name="action_sing_up_short">Sign up</string>
+    <string name="title_activity_forget_password">ForgetPassword</string>
+    <string name="title_activity_pick_university">PickUniversity</string>
+    <string name="title_activity_university_picker">UniversityPicker</string>
+    <string name="title_activity_organization_login">Sign in</string>
+    <string name="title_activity_organization_register">Sign in</string>
+
+
+    <string name="title_activity_questions">Questions</string>
+    <string name="title_activity_reports">Reports</string>
+    <string name="reports">بلاغات تسرب المياه</string>
+    <string name="title_activity_order">Order</string>
+    <string name="title_activity_report">Report</string>
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+
+    <string name="title_activity_rigester">RigesterActivity</string>
+    <string name="title_activity_login_acticity">"Grayllow"</string>
+    <string name="title_activity_reports1">Reports1</string>
+    <string name="title_activity_r2">R2</string>
+    <string name="title_activity_r3">R3</string>
+    <string name="title_activity_r4">R4</string>er
+    <string name="title_activity_r5">R5</string>
+    <string name="title_activity_r6">R6</string>
+    <string name="title_activity_r7">r7</string>
+    <string name="title_activity_r8">R8</string>
+    <string name="title_activity_r9">R9</string>
+    <string name="title_activity_display_image">DisplayImage</string>
+    <string name="title_activity_test">Test</string>
+
+    <string-array name="sectionarray">
+        <item>الادارة</item>
+        <item>العامه</item>
+        <item>الهندسة</item>
+        <item>المياه و الصرف الصحي</item>
+        <item>الماليه</item>
+        <item>العلاقات العامه</item>
+        <item>الصحه و البيئه</item>
+        <item>خدمات الجمهور</item>
+        <item>اطفائية بلدية نابلس</item>
+        <item>النفايات</item>
+        <item>محكمة بلدية نابلس</item>
+        <item>المسلخ البلدي</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test3">test3</string>
+
+</resources>

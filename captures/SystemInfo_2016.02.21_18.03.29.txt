@@ -1,0 +1,36 @@
+Applications Memory Usage (kB):
+Uptime: 32930674 Realtime: 70951553
+
+** MEMINFO in pid 28708 [com.hfad.nablusmunicipality1] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     7006     6980        0     3760    11920    11920     8559
+  Dalvik Heap    23930    23876        0    25212    59709    50551     9158
+ Dalvik Other     1058     1056        0        0                           
+        Stack      232      232        0        0                           
+    Other dev    23143    22792        4        0                           
+     .so mmap     1812      340      676     1644                           
+    .apk mmap      209        0       64        0                           
+    .ttf mmap        2        0        0        0                           
+    .dex mmap     2764        0     2764        0                           
+    code mmap     2382        0      788        0                           
+   image mmap     7936     7732       40        0                           
+   Other mmap       20        4        4        0                           
+     Graphics    66784    66784        0        0                           
+           GL     4264     4264        0        0                           
+      Unknown        0        0        0       56                           
+        TOTAL   141542   134060     4340    30672    71629    62471    17717
+ 
+ Objects
+               Views:      191         ViewRootImpl:        6
+         AppContexts:        7           Activities:        5
+              Assets:        3        AssetManagers:        3
+       Local Binders:       16        Proxy Binders:       24
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 

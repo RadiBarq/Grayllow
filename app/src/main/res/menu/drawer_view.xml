@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/ic_switch_camera_black_36dp"
+            android:title="Switch Org" />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/ic_note_add_black_36dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/ic_arrow_back_black_36dp"
+            android:title="Logout" />
+    </group>
+</menu>
