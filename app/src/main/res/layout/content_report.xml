@@ -13,13 +13,17 @@
     tools:showIn="@layout/activity_report"
     android:background="#ffffff">
 
+
+
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="القسم المختص"
+        android:text="User Name"
         android:id="@+id/id"
-        android:textColor="#2196F3"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_below="@+id/textView11"
         android:layout_centerHorizontal="true" />
 
@@ -27,9 +31,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="وصف البلاغ"
+        android:text="Description"
         android:id="@+id/description"
-        android:textColor="#2196F3"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_below="@+id/imageView5"
         android:layout_centerHorizontal="true" />
 
@@ -37,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="حالة البلاغ"
+        android:text="Report Status"
         android:id="@+id/textView9"
         android:layout_marginTop="43dp"
         android:textColor="#2196F3"

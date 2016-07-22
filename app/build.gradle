@@ -7,7 +7,7 @@ android {
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
-        applicationId "com.hfad.nablusmunicipality1"
+        applicationId "com.hfad.grayllow"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
@@ -30,7 +30,7 @@ repositories {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile files('src/main/java/com/hfad/nablusmunicipality1/GenAsync.jar')
+    compile files('src/main/java/com/hfad/grayllow/GenAsync.jar')
     compile files('libs/GenAsync.1.2.jar')
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
@@ -39,4 +39,7 @@ dependencies {
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
     compile 'com.google.android.gms:play-services:8.4.0'
     compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.google.android.gms:play-services-ads:8.4.0'
+    compile 'com.google.android.gms:play-services-identity:8.4.0'
+    compile 'com.google.android.gms:play-services-gcm:8.4.0'
 }
